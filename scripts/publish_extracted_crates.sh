@@ -21,7 +21,10 @@ Options:
                      crates: vtcode-commons, vtcode-auth, vtcode-exec-events,
                      vtcode-markdown-store, vtcode-ghostty-vt-sys, vtcode-vim,
                      vtcode-config, vtcode-theme, vtcode-file-search,
-                     vtcode-indexer, vtcode-bash-runner, vtcode-tui,
+                     vtcode-indexer, vtcode-bash-runner,
+                     vtcode-terminal-detection, vtcode-tui,
+                     vtcode-collaboration-tool-specs,
+                     vtcode-utility-tool-specs,
                      vtcode-core, vtcode-acp, vtcode.
   --skip-tests       Skip running the workspace fmt/clippy/test checks. Use with
                      caution; the release plan expects the validation suite to
@@ -103,7 +106,10 @@ CRATES=(
     vtcode-file-search
     vtcode-indexer
     vtcode-bash-runner
+    vtcode-terminal-detection
     vtcode-tui
+    vtcode-collaboration-tool-specs
+    vtcode-utility-tool-specs
     vtcode-core
     vtcode-acp
     vtcode
